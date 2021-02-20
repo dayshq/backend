@@ -7,6 +7,7 @@ class CreatePeople < ActiveRecord::Migration[6.1]
       t.string :bio
       t.bigint :phone_number
       t.boolean :is_verified
+      t.string :last_seen
       t.timestamps :null => false
     end
   end
